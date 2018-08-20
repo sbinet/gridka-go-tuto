@@ -1,10 +1,10 @@
-gridka-go-2017
+gridka-go-tutorial
 ===================
 
-`gridka-go-2017` is a simple repository holding sources for the `Go`
-hands-on session of the [GridKa School](https://gridka-school.scc.kit.edu/2017/).
+`gridka-go-tuto` is a simple repository holding sources for the `Go`
+hands-on session of the [GridKa School](https://gridka-school.scc.kit.edu/2018/).
 
-The slides are [here](https://talks.godoc.org/github.com/sbinet/gridka-go-2017/talk.slide).
+The slides are [here](https://talks.godoc.org/github.com/sbinet/gridka-go-tuto/talk.slide).
 
 ## Bootstrapping the work environment
 
@@ -80,8 +80,8 @@ For this part, you'll need the following tools installed to actually retrieve th
 Without further ado:
 
 ```sh
-$ go get -u -v github.com/sbinet/gridka-go-2017/cmd/gridka-hello
-github.com/sbinet/gridka-go-2017 (download)
+$ go get -u -v github.com/sbinet/gridka-go-tuto/cmd/gridka-hello
+github.com/sbinet/gridka-go-tuto (download)
 ```
 
 `go get` downloaded (cloned, in `git` speak) the whole
@@ -94,7 +94,7 @@ The `gridka-hello` command is now available from your shell:
 
 ```sh
 $ gridka-hello
-Hello GridKa-Go-2017!
+Hello GridKa!
 
 $ gridka-hello you
 Hello you!
